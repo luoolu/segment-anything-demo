@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+numpy
+opencv-python
+torch
+torchvision
+python-multipart
+# segment-anything model from Meta AI (install from GitHub)
+git+https://github.com/facebookresearch/segment-anything.git

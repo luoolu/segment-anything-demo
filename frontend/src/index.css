@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+}
+
+/* 让 React inline 样式完全控制 polygon */
+polygon {
+  /* no fill-opacity, stroke, stroke-width */
+}
