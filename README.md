@@ -104,12 +104,7 @@ npm run dev
 <!-- 自动播放的输出 GIF -->
 <img src="assets/output.gif" alt="输出效果" width="600" />
 
-<!-- 嵌入可循环自动播放的 MP4 视频 -->
-<video width="600" autoplay loop muted playsinline>
-  <source src="assets/sam_bp_hover.mp4" type="video/mp4">
-  <!-- 浏览器不支持时显示下载链接 -->
-  您的浏览器不支持视频播放，请 <a href="assets/sam_bp_hover.mp4">点击这里下载观看</a>。
-</video>
+<img src="assets/sam_bp_hover.gif" alt="输出效果" width="960" />
 
 ---
 
