@@ -40,7 +40,7 @@ mask_generator = SamAutomaticMaskGenerator(
     crop_nms_thresh=0.7,
     crop_overlap_ratio=512/1500,
     crop_n_points_downscale_factor=1,
-    min_mask_region_area=400,
+    min_mask_region_area=500,
 )
 predictor = SamPredictor(sam)
 
