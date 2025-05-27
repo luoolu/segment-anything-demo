@@ -70,6 +70,7 @@ pip install -r requirements.txt
 
 # 启动 Uvicorn 开发服务器
 uvicorn main:app --host 0.0.0.0 --port 8001 --reload
+uvicorn backend.main:app --reload --host 0.0.0.0 --port 8001
 ````
 
 > **注意**：请在 `sam_model.py` 中修改 `CKPT_H` 为你本地的 SAM checkpoint 路径。
@@ -97,8 +98,9 @@ npm run dev
 
 ## 🎬 效果预览
 
-![示例效果](assets/img.png)
-
+![示例效果](assets/img_2.png)
+assets/demo.gif
+assets/output.gif
 > Screencast: [2025-05-23 分割演示](assets/Screencast%20from%202025-05-23%2017-09-06.mp4)
 
 ---
